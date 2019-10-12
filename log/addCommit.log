@@ -1,0 +1,14 @@
+[2019-10-11-01:29:29]CompleteDownload:0:31: key=None value=b'{"repoId": "08a2c400-9191-11e9-be7f-7f225df07fc5", "local_addr": "github/graphhopper/graphhopper-master", "max_index": 4080, "flag": "not first added and existed"}'
+[2019-10-11-01:29:30]{'repoId': '08a2c400-9191-11e9-be7f-7f225df07fc5', 'commitId': '2f70d70121f9a9a2d23ab8db7419b304092da2ef', 'category': 'bug'}
+[2019-10-11-01:29:30]{'repoId': '08a2c400-9191-11e9-be7f-7f225df07fc5', 'commitId': 'ee02bc1122e445827617cd6a459305ae78195a23', 'category': 'bug'}
+[2019-10-11-01:30:04]CompleteDownload:0:32: key=None value=b'{"repoId": "0b3758ea-65b1-11e9-9ddc-f93dfaa9da61", "local_addr": "github/apache/commons-io-master", "max_index": 2243, "flag": "not first added and existed"}'
+[2019-10-11-01:30:05]{'repoId': '0b3758ea-65b1-11e9-9ddc-f93dfaa9da61', 'commitId': '633cd397779599a83cbda0edaed02475302c9597', 'category': 'bug'}
+[2019-10-11-01:30:05]{'repoId': '0b3758ea-65b1-11e9-9ddc-f93dfaa9da61', 'commitId': '684c25b32ff67c5a61d00d5eb6439cb89fdbc776', 'category': 'bug'}
+[2019-10-11-01:30:05]{'repoId': '0b3758ea-65b1-11e9-9ddc-f93dfaa9da61', 'commitId': '543fd81cee5852a49f528b71955e07dad651e339', 'category': 'bug'}
+[2019-10-11-01:30:56]CompleteDownload:0:33: key=None value=b'{"repoId": "26e7ab54-ea62-11e9-9edd-f55f80c75630", "local_addr": "github/flowable/flowable-engine-master", "max_index": 10641, "flag": "not first added and existed"}'
+[2019-10-11-01:30:57]{'repoId': '26e7ab54-ea62-11e9-9edd-f55f80c75630', 'commitId': '752a820dce5972d83c068a092fa1dd110189a341', 'category': 'bug'}
+[2019-10-11-03:43:15]CompleteDownload:0:34: key=None value=b'{"repoId": "0b3758ea-65b1-11e9-9ddc-f93dfaa9da61", "local_addr": "github/apache/commons-io-master", "max_index": 2246, "flag": "not first added and existed"}'
+[2019-10-11-03:43:16]{'repoId': '0b3758ea-65b1-11e9-9ddc-f93dfaa9da61', 'commitId': '7adcc09a6c291ccde913bd88db45017cfd48a394', 'category': 'bug'}
+[2019-10-11-03:43:16]{'repoId': '0b3758ea-65b1-11e9-9ddc-f93dfaa9da61', 'commitId': '30d8c4c31028c8a403e7a46faa873df08844e3bf', 'category': 'bug'}
+[2019-10-11-03:43:16]{'repoId': '0b3758ea-65b1-11e9-9ddc-f93dfaa9da61', 'commitId': '1d1480716b147523440cbea61d43baeefe124f09', 'category': 'bug'}
+[2019-10-11-03:43:16]{'repoId': '0b3758ea-65b1-11e9-9ddc-f93dfaa9da61', 'commitId': 'abba6c3735d0c8c7930011063739ca1467990317', 'category': 'bug'}

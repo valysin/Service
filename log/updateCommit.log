@@ -1,0 +1,1066 @@
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+error: Your local changes to the following files would be overwritten by checkout:
+	src/main/java/com/owlike/genson/BeanView.java
+	src/main/java/com/owlike/genson/Context.java
+	src/main/java/com/owlike/genson/Deserializer.java
+	src/main/java/com/owlike/genson/Factory.java
+	src/main/java/com/owlike/genson/GenericType.java
+	src/main/java/com/owlike/genson/Genson.java
+	src/main/java/com/owlike/genson/Serializer.java
+	src/main/java/com/owlike/genson/TransformationException.java
+	src/main/java/com/owlike/genson/annotation/Creator.java
+	src/main/java/com/owlike/genson/annotation/JsonProperty.java
+	src/main/java/com/owlike/genson/annotation/WithBeanView.java
+	src/main/java/com/owlike/genson/ext/spring/ExtendedReqRespBodyMethodProcessor.java
+	src/main/java/com/owlike/genson/ext/spring/GensonMessageConverter.java
+	src/main/java/com/owlike/genson/reflect/AbstractBeanDescriptorProvider.java
+	src/main/java/com/owlike/genson/reflect/BaseBeanDescriptorProvider.java
+	src/main/java/com/owlike/genson/reflect/BeanCreator.java
+	src/main/java/com/owlike/genson/reflect/BeanDescriptorProvider.java
+	src/main/java/com/owlike/genson/reflect/BeanMutatorAccessorResolver.java
+	src/main/java/com/owlike/genson/reflect/BeanProperty.java
+	src/main/java/com/owlike/genson/reflect/BeanViewDescriptorProvider.java
+	src/main/java/com/owlike/genson/reflect/PropertyAccessor.java
+	src/main/java/com/owlike/genson/reflect/PropertyMutator.java
+	src/main/java/com/owlike/genson/reflect/PropertyNameResolver.java
+	src/main/java/com/owlike/genson/stream/ObjectWriter.java
+	src/main/java/com/owlike/genson/stream/ValueType.java
+	src/test/java/com/owlike/genson/GensonBenchmark.java
+	src/test/java/com/owlike/genson/JsonSerDeserSymetricTest.java
+	src/test/java/com/owlike/genson/bean/ComplexObject.java
+	src/test/java/com/owlike/genson/bean/Primitives.java
+	src/test/java/com/owlike/genson/convert/JsonDeserializationTest.java
+	src/test/java/com/owlike/genson/convert/JsonSerializationTest.java
+	src/test/java/com/owlike/genson/reflect/TypeUtilTest.java
+	src/test/java/com/owlike/genson/stream/JsonReaderTest.java
+Please, commit your changes or stash them before you can switch branches.
+Aborting
+You are not currently on a branch. Please specify which
+branch you want to merge with. See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+M	xchart/src/main/java/org/knowm/xchart/CategoryChart.java
+M	xchart/src/main/java/org/knowm/xchart/internal/chartpart/PlotContent_Pie.java
+Already up-to-date.
+Already on 'master'
+From https://github.com/graphhopper/graphhopper
+   41f650a..ee02bc1  master     -> origin/master
+Updating 41f650a..ee02bc1
+Fast-forward
+ .gitlab-ci.yml                                     | 23 +++++++++++
+ benchmark/benchmark.sh                             | 47 ++++++++++++++++++++++
+ benchmark/download_map.sh                          | 16 ++++++++
+ benchmark/post_benchmark.sh                        | 18 +++++++++
+ .../java/com/graphhopper/tools/Measurement.java    | 41 ++++++++++---------
+ 5 files changed, 127 insertions(+), 18 deletions(-)
+ create mode 100644 .gitlab-ci.yml
+ create mode 100755 benchmark/benchmark.sh
+ create mode 100644 benchmark/download_map.sh
+ create mode 100755 benchmark/post_benchmark.sh
+Already on 'master'
+From https://github.com/graphhopper/graphhopper
+   41f650a..ee02bc1  master     -> origin/master
+Updating 41f650a..ee02bc1
+Fast-forward
+ .gitlab-ci.yml                                     | 23 +++++++++++
+ benchmark/benchmark.sh                             | 47 ++++++++++++++++++++++
+ benchmark/download_map.sh                          | 16 ++++++++
+ benchmark/post_benchmark.sh                        | 18 +++++++++
+ .../java/com/graphhopper/tools/Measurement.java    | 41 ++++++++++---------
+ 5 files changed, 127 insertions(+), 18 deletions(-)
+ create mode 100644 .gitlab-ci.yml
+ create mode 100755 benchmark/benchmark.sh
+ create mode 100644 benchmark/download_map.sh
+ create mode 100755 benchmark/post_benchmark.sh
+Already on 'master'
+From https://github.com/graphhopper/graphhopper
+   41f650a..ee02bc1  master     -> origin/master
+Updating 41f650a..ee02bc1
+Fast-forward
+ .gitlab-ci.yml                                     | 23 +++++++++++
+ benchmark/benchmark.sh                             | 47 ++++++++++++++++++++++
+ benchmark/download_map.sh                          | 16 ++++++++
+ benchmark/post_benchmark.sh                        | 18 +++++++++
+ .../java/com/graphhopper/tools/Measurement.java    | 41 ++++++++++---------
+ 5 files changed, 127 insertions(+), 18 deletions(-)
+ create mode 100644 .gitlab-ci.yml
+ create mode 100755 benchmark/benchmark.sh
+ create mode 100644 benchmark/download_map.sh
+ create mode 100755 benchmark/post_benchmark.sh
+Already on 'master'
+From https://github.com/graphhopper/graphhopper
+   41f650a..ee02bc1  master     -> origin/master
+Updating 41f650a..ee02bc1
+Fast-forward
+ .gitlab-ci.yml                                     | 23 +++++++++++
+ benchmark/benchmark.sh                             | 47 ++++++++++++++++++++++
+ benchmark/download_map.sh                          | 16 ++++++++
+ benchmark/post_benchmark.sh                        | 18 +++++++++
+ .../java/com/graphhopper/tools/Measurement.java    | 41 ++++++++++---------
+ 5 files changed, 127 insertions(+), 18 deletions(-)
+ create mode 100644 .gitlab-ci.yml
+ create mode 100755 benchmark/benchmark.sh
+ create mode 100644 benchmark/download_map.sh
+ create mode 100755 benchmark/post_benchmark.sh
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+From https://github.com/apache/commons-io
+   12a47cf..543fd81  master     -> origin/master
+Updating 12a47cf..543fd81
+Fast-forward
+ src/changes/changes.xml                            |    3 +
+ src/main/java/org/apache/commons/io/FileUtils.java | 4212 ++++++++++----------
+ .../apache/commons/io/output/NullOutputStream.java |   12 +
+ .../apache/commons/io/output/NullPrintStream.java  |    3 +-
+ .../org/apache/commons/io/IOUtilsCopyTestCase.java |    2 +-
+ .../commons/io/input/CountingInputStreamTest.java  |    2 +-
+ .../io/output/CountingOutputStreamTest.java        |    2 +-
+ .../commons/io/output/NullOutputStreamTest.java    |    2 +-
+ 8 files changed, 2126 insertions(+), 2112 deletions(-)
+Already on 'master'
+From https://github.com/apache/commons-io
+   12a47cf..543fd81  master     -> origin/master
+Updating 12a47cf..543fd81
+Fast-forward
+ src/changes/changes.xml                            |    3 +
+ src/main/java/org/apache/commons/io/FileUtils.java | 4212 ++++++++++----------
+ .../apache/commons/io/output/NullOutputStream.java |   12 +
+ .../apache/commons/io/output/NullPrintStream.java  |    3 +-
+ .../org/apache/commons/io/IOUtilsCopyTestCase.java |    2 +-
+ .../commons/io/input/CountingInputStreamTest.java  |    2 +-
+ .../io/output/CountingOutputStreamTest.java        |    2 +-
+ .../commons/io/output/NullOutputStreamTest.java    |    2 +-
+ 8 files changed, 2126 insertions(+), 2112 deletions(-)
+Already on 'master'
+From https://github.com/apache/commons-io
+   12a47cf..543fd81  master     -> origin/master
+Updating 12a47cf..543fd81
+Fast-forward
+ src/changes/changes.xml                            |    3 +
+ src/main/java/org/apache/commons/io/FileUtils.java | 4212 ++++++++++----------
+ .../apache/commons/io/output/NullOutputStream.java |   12 +
+ .../apache/commons/io/output/NullPrintStream.java  |    3 +-
+ .../org/apache/commons/io/IOUtilsCopyTestCase.java |    2 +-
+ .../commons/io/input/CountingInputStreamTest.java  |    2 +-
+ .../io/output/CountingOutputStreamTest.java        |    2 +-
+ .../commons/io/output/NullOutputStreamTest.java    |    2 +-
+ 8 files changed, 2126 insertions(+), 2112 deletions(-)
+Already on 'master'
+From https://github.com/apache/commons-io
+   12a47cf..543fd81  master     -> origin/master
+Updating 12a47cf..543fd81
+Fast-forward
+ src/changes/changes.xml                            |    3 +
+ src/main/java/org/apache/commons/io/FileUtils.java | 4212 ++++++++++----------
+ .../apache/commons/io/output/NullOutputStream.java |   12 +
+ .../apache/commons/io/output/NullPrintStream.java  |    3 +-
+ .../org/apache/commons/io/IOUtilsCopyTestCase.java |    2 +-
+ .../commons/io/input/CountingInputStreamTest.java  |    2 +-
+ .../io/output/CountingOutputStreamTest.java        |    2 +-
+ .../commons/io/output/NullOutputStreamTest.java    |    2 +-
+ 8 files changed, 2126 insertions(+), 2112 deletions(-)
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+error: you need to resolve your current index first
+CHANGELOG.md: needs merge
+src/main/java/org/bytedeco/javacpp/tools/Generator.java: needs merge
+U	CHANGELOG.md
+M	src/main/java/org/bytedeco/javacpp/Pointer.java
+M	src/main/java/org/bytedeco/javacpp/tools/Builder.java
+U	src/main/java/org/bytedeco/javacpp/tools/Generator.java
+M	src/main/java/org/bytedeco/javacpp/tools/InfoMap.java
+Pull is not possible because you have unmerged files.
+Please, fix them up in the work tree, and then use 'git add/rm <file>'
+as appropriate to mark resolution, or use 'git commit -a'.
+error: you need to resolve your current index first
+CHANGELOG.md: needs merge
+src/main/java/org/bytedeco/javacpp/tools/Generator.java: needs merge
+U	CHANGELOG.md
+M	src/main/java/org/bytedeco/javacpp/Pointer.java
+M	src/main/java/org/bytedeco/javacpp/tools/Builder.java
+U	src/main/java/org/bytedeco/javacpp/tools/Generator.java
+M	src/main/java/org/bytedeco/javacpp/tools/InfoMap.java
+Pull is not possible because you have unmerged files.
+Please, fix them up in the work tree, and then use 'git add/rm <file>'
+as appropriate to mark resolution, or use 'git commit -a'.
+error: you need to resolve your current index first
+CHANGELOG.md: needs merge
+src/main/java/org/bytedeco/javacpp/tools/Generator.java: needs merge
+U	CHANGELOG.md
+M	src/main/java/org/bytedeco/javacpp/Pointer.java
+M	src/main/java/org/bytedeco/javacpp/tools/Builder.java
+U	src/main/java/org/bytedeco/javacpp/tools/Generator.java
+M	src/main/java/org/bytedeco/javacpp/tools/InfoMap.java
+Pull is not possible because you have unmerged files.
+Please, fix them up in the work tree, and then use 'git add/rm <file>'
+as appropriate to mark resolution, or use 'git commit -a'.
+error: you need to resolve your current index first
+CHANGELOG.md: needs merge
+src/main/java/org/bytedeco/javacpp/tools/Generator.java: needs merge
+U	CHANGELOG.md
+M	src/main/java/org/bytedeco/javacpp/Pointer.java
+M	src/main/java/org/bytedeco/javacpp/tools/Builder.java
+U	src/main/java/org/bytedeco/javacpp/tools/Generator.java
+M	src/main/java/org/bytedeco/javacpp/tools/InfoMap.java
+Pull is not possible because you have unmerged files.
+Please, fix them up in the work tree, and then use 'git add/rm <file>'
+as appropriate to mark resolution, or use 'git commit -a'.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+From https://github.com/flowable/flowable-engine
+   4c7d969..752a820  master     -> origin/master
+Updating 4c7d969..752a820
+Fast-forward
+ .../operation/EvaluateCriteriaOperation.java       |  59 ++++---
+ .../impl/criteria/PlanItemLifeCycleEvent.java      |  10 ++
+ .../org/flowable/cmmn/test/runtime/StageTest.java  |  31 ++++
+ ...estNestedRepeatingStageWithMultipleOnParts.cmmn | 183 +++++++++++++++++++++
+ .../java/org/flowable/cmmn/model/Criterion.java    |  12 ++
+ 5 files changed, 274 insertions(+), 21 deletions(-)
+ create mode 100644 modules/flowable-cmmn-engine/src/test/resources/org/flowable/cmmn/test/runtime/StageTest.testNestedRepeatingStageWithMultipleOnParts.cmmn
+Already on 'master'
+From https://github.com/flowable/flowable-engine
+   4c7d969..752a820  master     -> origin/master
+Updating 4c7d969..752a820
+Fast-forward
+ .../operation/EvaluateCriteriaOperation.java       |  59 ++++---
+ .../impl/criteria/PlanItemLifeCycleEvent.java      |  10 ++
+ .../org/flowable/cmmn/test/runtime/StageTest.java  |  31 ++++
+ ...estNestedRepeatingStageWithMultipleOnParts.cmmn | 183 +++++++++++++++++++++
+ .../java/org/flowable/cmmn/model/Criterion.java    |  12 ++
+ 5 files changed, 274 insertions(+), 21 deletions(-)
+ create mode 100644 modules/flowable-cmmn-engine/src/test/resources/org/flowable/cmmn/test/runtime/StageTest.testNestedRepeatingStageWithMultipleOnParts.cmmn
+Already on 'master'
+From https://github.com/flowable/flowable-engine
+   4c7d969..752a820  master     -> origin/master
+Updating 4c7d969..752a820
+Fast-forward
+ .../operation/EvaluateCriteriaOperation.java       |  59 ++++---
+ .../impl/criteria/PlanItemLifeCycleEvent.java      |  10 ++
+ .../org/flowable/cmmn/test/runtime/StageTest.java  |  31 ++++
+ ...estNestedRepeatingStageWithMultipleOnParts.cmmn | 183 +++++++++++++++++++++
+ .../java/org/flowable/cmmn/model/Criterion.java    |  12 ++
+ 5 files changed, 274 insertions(+), 21 deletions(-)
+ create mode 100644 modules/flowable-cmmn-engine/src/test/resources/org/flowable/cmmn/test/runtime/StageTest.testNestedRepeatingStageWithMultipleOnParts.cmmn
+Already on 'master'
+From https://github.com/flowable/flowable-engine
+   4c7d969..752a820  master     -> origin/master
+Updating 4c7d969..752a820
+Fast-forward
+ .../operation/EvaluateCriteriaOperation.java       |  59 ++++---
+ .../impl/criteria/PlanItemLifeCycleEvent.java      |  10 ++
+ .../org/flowable/cmmn/test/runtime/StageTest.java  |  31 ++++
+ ...estNestedRepeatingStageWithMultipleOnParts.cmmn | 183 +++++++++++++++++++++
+ .../java/org/flowable/cmmn/model/Criterion.java    |  12 ++
+ 5 files changed, 274 insertions(+), 21 deletions(-)
+ create mode 100644 modules/flowable-cmmn-engine/src/test/resources/org/flowable/cmmn/test/runtime/StageTest.testNestedRepeatingStageWithMultipleOnParts.cmmn
+error: you need to resolve your current index first
+README.md: needs merge
+U	README.md
+Pull is not possible because you have unmerged files.
+Please, fix them up in the work tree, and then use 'git add/rm <file>'
+as appropriate to mark resolution, or use 'git commit -a'.
+error: you need to resolve your current index first
+README.md: needs merge
+U	README.md
+Pull is not possible because you have unmerged files.
+Please, fix them up in the work tree, and then use 'git add/rm <file>'
+as appropriate to mark resolution, or use 'git commit -a'.
+error: you need to resolve your current index first
+README.md: needs merge
+U	README.md
+Pull is not possible because you have unmerged files.
+Please, fix them up in the work tree, and then use 'git add/rm <file>'
+as appropriate to mark resolution, or use 'git commit -a'.
+error: you need to resolve your current index first
+README.md: needs merge
+U	README.md
+Pull is not possible because you have unmerged files.
+Please, fix them up in the work tree, and then use 'git add/rm <file>'
+as appropriate to mark resolution, or use 'git commit -a'.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+[2019-10-11-01:31:25][Errno 2] No such file or directory: '/home/fdse/user/issueTracker/repo/github/reficio/p2-maven-plugin-master_duplicate_fdse-1'
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+D	.mvn/wrapper/maven-wrapper.jar
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+error: Your local changes to the following files would be overwritten by checkout:
+	jctools-core/src/main/java/org/jctools/queues/atomic/MpmcAtomicArrayQueue.java
+Please, commit your changes or stash them before you can switch branches.
+Aborting
+You are not currently on a branch. Please specify which
+branch you want to merge with. See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+Already on 'master'
+M	jctools-core/src/main/java/org/jctools/queues/atomic/BaseMpscLinkedAtomicArrayQueue.java
+Your branch is behind 'origin/master' by 28 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+error: Your local changes to the following files would be overwritten by merge:
+	jctools-core/src/main/java/org/jctools/queues/atomic/BaseMpscLinkedAtomicArrayQueue.java
+Please, commit your changes or stash them before you can merge.
+Aborting
+Updating 9f745a0..19cbaae
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+D	mall-demo/.mvn/wrapper/maven-wrapper.jar
+D	mall-portal/.mvn/wrapper/maven-wrapper.jar
+D	mall-search/.mvn/wrapper/maven-wrapper.jar
+Already up-to-date.
+Already on 'master'
+M	src/main/java/org/red5/server/net/rtmp/RTMPChannelFilter.java
+M	src/main/java/org/red5/server/scope/RoomScope.java
+M	src/main/java/org/red5/server/util/UrlQueryStringMap.java
+Your branch is behind 'origin/master' by 2 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+error: Your local changes to the following files would be overwritten by merge:
+	src/main/java/org/red5/server/net/rtmp/RTMPChannelFilter.java
+	src/main/java/org/red5/server/scope/RoomScope.java
+	src/main/java/org/red5/server/util/UrlQueryStringMap.java
+Please, commit your changes or stash them before you can merge.
+Aborting
+Updating bb4c709..4248e0a
+error: Your local changes to the following files would be overwritten by checkout:
+	src/main/java/org/red5/server/script/groovy/GroovyScriptFactory.java
+	src/main/java/org/red5/server/script/rhino/RhinoScriptFactory.java
+	src/main/java/org/red5/server/script/rhino/RhinoScriptUtils.java
+Please, commit your changes or stash them before you can switch branches.
+Aborting
+You are not currently on a branch. Please specify which
+branch you want to merge with. See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+[2019-10-11-01:33:25]'>' not supported between instances of 'int' and 'NoneType'
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+error: you need to resolve your current index first
+modules/lwjgl/libdivide/src/main/c/libdivide.h: needs merge
+U	modules/lwjgl/libdivide/src/main/c/libdivide.h
+M	modules/lwjgl/opencl/src/test/java/org/lwjgl/opencl/CLTest.java
+D	modules/lwjgl/opencl/src/test/java/org/lwjgl/opencl/InfoUtil.java
+M	modules/samples/src/test/java/org/lwjgl/demo/opencl/CLDemo.java
+M	modules/samples/src/test/java/org/lwjgl/demo/opencl/CLGLInteropDemo.java
+A	modules/samples/src/test/java/org/lwjgl/demo/opencl/InfoUtil.java
+M	modules/samples/src/test/java/org/lwjgl/demo/opencl/Mandelbrot.java
+Pull is not possible because you have unmerged files.
+Please, fix them up in the work tree, and then use 'git add/rm <file>'
+as appropriate to mark resolution, or use 'git commit -a'.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+D	gradle/wrapper/gradle-wrapper.jar
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+error: Your local changes to the following files would be overwritten by checkout:
+	src/main/asciidoc/java/index.adoc
+Please, commit your changes or stash them before you can switch branches.
+Aborting
+You are not currently on a branch. Please specify which
+branch you want to merge with. See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+D	src/it/it0006-jni-3rdparty/src/nar/resources/aol/amd64-Linux-gpp/share/it0003-jni-1.0-SNAPSHOT.jar
+D	src/it/it0006-jni-3rdparty/src/nar/resources/aol/amd64-Windows-msvc/share/it0003-jni-1.0-SNAPSHOT.jar
+D	src/it/it0006-jni-3rdparty/src/nar/resources/aol/i386-Linux-gpp/share/it0003-jni-1.0-SNAPSHOT.jar
+D	src/it/it0006-jni-3rdparty/src/nar/resources/aol/ppc-MacOSX-gpp/share/it0003-jni-1.0-SNAPSHOT.jar
+D	src/it/it0006-jni-3rdparty/src/nar/resources/aol/x86-Windows-msvc/share/it0003-jni-1.0-SNAPSHOT.jar
+D	src/it/it0006-jni-3rdparty/src/nar/resources/aol/x86_64-MacOSX-gpp/share/it0003-jni-1.0-SNAPSHOT.jar
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+D	src/test/repository/commons-io/commons-io/1.1/commons-io-1.1.jar
+D	src/test/repository/commons-io/commons-io/commons-io/1.1/commons-io-1.1.jar
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+D	src/test/resources/org/sonarsource/scanner/maven/SonarQubeMojoTest/sample-project-with-custom-surefire-path/target/classes/placeholder.txt
+D	src/test/resources/org/sonarsource/scanner/maven/SonarQubeMojoTest/sample-project-with-custom-surefire-path/target/tests/placeholder.txt
+D	src/test/resources/org/sonarsource/scanner/maven/SonarQubeMojoTest/sample-project-with-surefire/target/classes/placeholder.txt
+D	src/test/resources/org/sonarsource/scanner/maven/SonarQubeMojoTest/sample-project-with-surefire/target/surefire-reports/placeholder.txt
+D	src/test/resources/org/sonarsource/scanner/maven/SonarQubeMojoTest/sample-project/target/classes/placeholder.txt
+Already up-to-date.
+Already on 'master'
+D	src/test/resources/org/sonarsource/scanner/maven/SonarQubeMojoTest/sample-project-with-custom-surefire-path/target/classes/placeholder.txt
+D	src/test/resources/org/sonarsource/scanner/maven/SonarQubeMojoTest/sample-project-with-custom-surefire-path/target/tests/placeholder.txt
+D	src/test/resources/org/sonarsource/scanner/maven/SonarQubeMojoTest/sample-project-with-surefire/target/classes/placeholder.txt
+D	src/test/resources/org/sonarsource/scanner/maven/SonarQubeMojoTest/sample-project-with-surefire/target/surefire-reports/placeholder.txt
+D	src/test/resources/org/sonarsource/scanner/maven/SonarQubeMojoTest/sample-project/target/classes/placeholder.txt
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+D	tests/domain-tests/src/test/resources/test-project/target/test.war
+D	tests/standalone-tests/src/test/resources/test-project/dummy.jar
+D	tests/standalone-tests/src/test/resources/test-project/target/test.war
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+[2019-10-11-01:39:30]'>' not supported between instances of 'int' and 'NoneType'
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+D	lib/junit-4.8.2.jar
+D	lib/log4j-1.2.9.jar
+D	lib/mail.jar
+Already up-to-date.
+Already on 'master'
+D	lib/junit-4.8.2.jar
+D	lib/log4j-1.2.9.jar
+D	lib/mail.jar
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+M	core/src/test/resources/blackbox/qrcode-1/16.txt
+M	core/src/test/resources/blackbox/qrcode-1/17.txt
+M	core/src/test/resources/blackbox/qrcode-1/18.txt
+M	core/src/test/resources/blackbox/qrcode-1/19.txt
+M	core/src/test/resources/blackbox/qrcode-1/20.txt
+M	core/src/test/resources/blackbox/qrcode-2/10.txt
+M	core/src/test/resources/blackbox/qrcode-2/11.txt
+M	core/src/test/resources/blackbox/qrcode-2/16.txt
+M	core/src/test/resources/blackbox/qrcode-2/17.txt
+M	core/src/test/resources/blackbox/qrcode-2/18.txt
+M	core/src/test/resources/blackbox/qrcode-2/19.txt
+M	core/src/test/resources/blackbox/qrcode-2/20.txt
+M	core/src/test/resources/blackbox/qrcode-2/21.txt
+M	core/src/test/resources/blackbox/qrcode-2/24.txt
+M	core/src/test/resources/blackbox/qrcode-2/26.txt
+M	core/src/test/resources/blackbox/qrcode-2/27.txt
+M	core/src/test/resources/blackbox/qrcode-2/29.txt
+M	core/src/test/resources/blackbox/qrcode-2/32.txt
+M	core/src/test/resources/blackbox/qrcode-3/18.txt
+M	core/src/test/resources/blackbox/qrcode-3/19.txt
+M	core/src/test/resources/blackbox/qrcode-3/20.txt
+M	core/src/test/resources/blackbox/qrcode-3/21.txt
+M	core/src/test/resources/blackbox/qrcode-3/22.txt
+M	core/src/test/resources/blackbox/qrcode-3/23.txt
+M	core/src/test/resources/blackbox/qrcode-3/24.txt
+M	core/src/test/resources/blackbox/qrcode-3/25.txt
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+error: Your local changes to the following files would be overwritten by checkout:
+	zxing.appspot.com/src/main/webapp/scan.css
+Please, commit your changes or stash them before you can switch branches.
+Aborting
+You are not currently on a branch. Please specify which
+branch you want to merge with. See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+[2019-10-11-01:39:56][Errno 2] No such file or directory: '/home/fdse/user/issueTracker/repo/github/samaxes/minify-maven-plugin-master_duplicate_fdse-1'
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+D	.mvn/wrapper/maven-wrapper.jar
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+error: Your local changes to the following files would be overwritten by checkout:
+	src/main/java/com/owlike/genson/BeanView.java
+	src/main/java/com/owlike/genson/Context.java
+	src/main/java/com/owlike/genson/Deserializer.java
+	src/main/java/com/owlike/genson/Factory.java
+	src/main/java/com/owlike/genson/GenericType.java
+	src/main/java/com/owlike/genson/Genson.java
+	src/main/java/com/owlike/genson/Serializer.java
+	src/main/java/com/owlike/genson/TransformationException.java
+	src/main/java/com/owlike/genson/annotation/Creator.java
+	src/main/java/com/owlike/genson/annotation/JsonProperty.java
+	src/main/java/com/owlike/genson/annotation/WithBeanView.java
+	src/main/java/com/owlike/genson/ext/spring/ExtendedReqRespBodyMethodProcessor.java
+	src/main/java/com/owlike/genson/ext/spring/GensonMessageConverter.java
+	src/main/java/com/owlike/genson/reflect/AbstractBeanDescriptorProvider.java
+	src/main/java/com/owlike/genson/reflect/BaseBeanDescriptorProvider.java
+	src/main/java/com/owlike/genson/reflect/BeanCreator.java
+	src/main/java/com/owlike/genson/reflect/BeanDescriptorProvider.java
+	src/main/java/com/owlike/genson/reflect/BeanMutatorAccessorResolver.java
+	src/main/java/com/owlike/genson/reflect/BeanProperty.java
+	src/main/java/com/owlike/genson/reflect/BeanViewDescriptorProvider.java
+	src/main/java/com/owlike/genson/reflect/PropertyAccessor.java
+	src/main/java/com/owlike/genson/reflect/PropertyMutator.java
+	src/main/java/com/owlike/genson/reflect/PropertyNameResolver.java
+	src/main/java/com/owlike/genson/stream/ObjectWriter.java
+	src/main/java/com/owlike/genson/stream/ValueType.java
+	src/test/java/com/owlike/genson/GensonBenchmark.java
+	src/test/java/com/owlike/genson/JsonSerDeserSymetricTest.java
+	src/test/java/com/owlike/genson/bean/ComplexObject.java
+	src/test/java/com/owlike/genson/bean/Primitives.java
+	src/test/java/com/owlike/genson/convert/JsonDeserializationTest.java
+	src/test/java/com/owlike/genson/convert/JsonSerializationTest.java
+	src/test/java/com/owlike/genson/reflect/TypeUtilTest.java
+	src/test/java/com/owlike/genson/stream/JsonReaderTest.java
+Please, commit your changes or stash them before you can switch branches.
+Aborting
+You are not currently on a branch. Please specify which
+branch you want to merge with. See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+M	xchart/src/main/java/org/knowm/xchart/CategoryChart.java
+M	xchart/src/main/java/org/knowm/xchart/internal/chartpart/PlotContent_Pie.java
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+From https://github.com/apache/commons-io
+   543fd81..abba6c3  master     -> origin/master
+Updating 543fd81..abba6c3
+Fast-forward
+ src/changes/changes.xml                            |   9 ++
+ src/main/java/org/apache/commons/io/PathUtils.java |  70 ++++++++++
+ .../commons/io/file/CountingFileVisitor.java       |  87 +++++++++++++
+ .../commons/io/file/DeletingFileVisitor.java       |  77 +++++++++++
+ .../java/org/apache/commons/io/PathUtilsTest.java  |  70 ++++++++++
+ .../commons/io/file/CountingFileVisitorTest.java   |  90 +++++++++++++
+ .../commons/io/file/DeletingFileVisitorTest.java   | 144 +++++++++++++++++++++
+ .../commons/io/dirs-1-file-size-0/file-size-0.bin  |   0
+ .../commons/io/dirs-1-file-size-1/file-size-1.bin  |   1 +
+ .../dirs-a-file-size-1/file-size-1.bin             |   1 +
+ .../dirs-b-file-size-1/file-size-1.bin             |   1 +
+ 11 files changed, 550 insertions(+)
+ create mode 100644 src/main/java/org/apache/commons/io/PathUtils.java
+ create mode 100644 src/main/java/org/apache/commons/io/file/CountingFileVisitor.java
+ create mode 100644 src/main/java/org/apache/commons/io/file/DeletingFileVisitor.java
+ create mode 100644 src/test/java/org/apache/commons/io/PathUtilsTest.java
+ create mode 100644 src/test/java/org/apache/commons/io/file/CountingFileVisitorTest.java
+ create mode 100644 src/test/java/org/apache/commons/io/file/DeletingFileVisitorTest.java
+ create mode 100644 src/test/resources/org/apache/commons/io/dirs-1-file-size-0/file-size-0.bin
+ create mode 100644 src/test/resources/org/apache/commons/io/dirs-1-file-size-1/file-size-1.bin
+ create mode 100644 src/test/resources/org/apache/commons/io/dirs-2-file-size-2/dirs-a-file-size-1/file-size-1.bin
+ create mode 100644 src/test/resources/org/apache/commons/io/dirs-2-file-size-2/dirs-b-file-size-1/file-size-1.bin
+Already on 'master'
+From https://github.com/apache/commons-io
+   543fd81..abba6c3  master     -> origin/master
+Updating 543fd81..abba6c3
+Fast-forward
+ src/changes/changes.xml                            |   9 ++
+ src/main/java/org/apache/commons/io/PathUtils.java |  70 ++++++++++
+ .../commons/io/file/CountingFileVisitor.java       |  87 +++++++++++++
+ .../commons/io/file/DeletingFileVisitor.java       |  77 +++++++++++
+ .../java/org/apache/commons/io/PathUtilsTest.java  |  70 ++++++++++
+ .../commons/io/file/CountingFileVisitorTest.java   |  90 +++++++++++++
+ .../commons/io/file/DeletingFileVisitorTest.java   | 144 +++++++++++++++++++++
+ .../commons/io/dirs-1-file-size-0/file-size-0.bin  |   0
+ .../commons/io/dirs-1-file-size-1/file-size-1.bin  |   1 +
+ .../dirs-a-file-size-1/file-size-1.bin             |   1 +
+ .../dirs-b-file-size-1/file-size-1.bin             |   1 +
+ 11 files changed, 550 insertions(+)
+ create mode 100644 src/main/java/org/apache/commons/io/PathUtils.java
+ create mode 100644 src/main/java/org/apache/commons/io/file/CountingFileVisitor.java
+ create mode 100644 src/main/java/org/apache/commons/io/file/DeletingFileVisitor.java
+ create mode 100644 src/test/java/org/apache/commons/io/PathUtilsTest.java
+ create mode 100644 src/test/java/org/apache/commons/io/file/CountingFileVisitorTest.java
+ create mode 100644 src/test/java/org/apache/commons/io/file/DeletingFileVisitorTest.java
+ create mode 100644 src/test/resources/org/apache/commons/io/dirs-1-file-size-0/file-size-0.bin
+ create mode 100644 src/test/resources/org/apache/commons/io/dirs-1-file-size-1/file-size-1.bin
+ create mode 100644 src/test/resources/org/apache/commons/io/dirs-2-file-size-2/dirs-a-file-size-1/file-size-1.bin
+ create mode 100644 src/test/resources/org/apache/commons/io/dirs-2-file-size-2/dirs-b-file-size-1/file-size-1.bin
+Already on 'master'
+From https://github.com/apache/commons-io
+   543fd81..abba6c3  master     -> origin/master
+Updating 543fd81..abba6c3
+Fast-forward
+ src/changes/changes.xml                            |   9 ++
+ src/main/java/org/apache/commons/io/PathUtils.java |  70 ++++++++++
+ .../commons/io/file/CountingFileVisitor.java       |  87 +++++++++++++
+ .../commons/io/file/DeletingFileVisitor.java       |  77 +++++++++++
+ .../java/org/apache/commons/io/PathUtilsTest.java  |  70 ++++++++++
+ .../commons/io/file/CountingFileVisitorTest.java   |  90 +++++++++++++
+ .../commons/io/file/DeletingFileVisitorTest.java   | 144 +++++++++++++++++++++
+ .../commons/io/dirs-1-file-size-0/file-size-0.bin  |   0
+ .../commons/io/dirs-1-file-size-1/file-size-1.bin  |   1 +
+ .../dirs-a-file-size-1/file-size-1.bin             |   1 +
+ .../dirs-b-file-size-1/file-size-1.bin             |   1 +
+ 11 files changed, 550 insertions(+)
+ create mode 100644 src/main/java/org/apache/commons/io/PathUtils.java
+ create mode 100644 src/main/java/org/apache/commons/io/file/CountingFileVisitor.java
+ create mode 100644 src/main/java/org/apache/commons/io/file/DeletingFileVisitor.java
+ create mode 100644 src/test/java/org/apache/commons/io/PathUtilsTest.java
+ create mode 100644 src/test/java/org/apache/commons/io/file/CountingFileVisitorTest.java
+ create mode 100644 src/test/java/org/apache/commons/io/file/DeletingFileVisitorTest.java
+ create mode 100644 src/test/resources/org/apache/commons/io/dirs-1-file-size-0/file-size-0.bin
+ create mode 100644 src/test/resources/org/apache/commons/io/dirs-1-file-size-1/file-size-1.bin
+ create mode 100644 src/test/resources/org/apache/commons/io/dirs-2-file-size-2/dirs-a-file-size-1/file-size-1.bin
+ create mode 100644 src/test/resources/org/apache/commons/io/dirs-2-file-size-2/dirs-b-file-size-1/file-size-1.bin
+Already on 'master'
+From https://github.com/apache/commons-io
+   543fd81..abba6c3  master     -> origin/master
+Updating 543fd81..abba6c3
+Fast-forward
+ src/changes/changes.xml                            |   9 ++
+ src/main/java/org/apache/commons/io/PathUtils.java |  70 ++++++++++
+ .../commons/io/file/CountingFileVisitor.java       |  87 +++++++++++++
+ .../commons/io/file/DeletingFileVisitor.java       |  77 +++++++++++
+ .../java/org/apache/commons/io/PathUtilsTest.java  |  70 ++++++++++
+ .../commons/io/file/CountingFileVisitorTest.java   |  90 +++++++++++++
+ .../commons/io/file/DeletingFileVisitorTest.java   | 144 +++++++++++++++++++++
+ .../commons/io/dirs-1-file-size-0/file-size-0.bin  |   0
+ .../commons/io/dirs-1-file-size-1/file-size-1.bin  |   1 +
+ .../dirs-a-file-size-1/file-size-1.bin             |   1 +
+ .../dirs-b-file-size-1/file-size-1.bin             |   1 +
+ 11 files changed, 550 insertions(+)
+ create mode 100644 src/main/java/org/apache/commons/io/PathUtils.java
+ create mode 100644 src/main/java/org/apache/commons/io/file/CountingFileVisitor.java
+ create mode 100644 src/main/java/org/apache/commons/io/file/DeletingFileVisitor.java
+ create mode 100644 src/test/java/org/apache/commons/io/PathUtilsTest.java
+ create mode 100644 src/test/java/org/apache/commons/io/file/CountingFileVisitorTest.java
+ create mode 100644 src/test/java/org/apache/commons/io/file/DeletingFileVisitorTest.java
+ create mode 100644 src/test/resources/org/apache/commons/io/dirs-1-file-size-0/file-size-0.bin
+ create mode 100644 src/test/resources/org/apache/commons/io/dirs-1-file-size-1/file-size-1.bin
+ create mode 100644 src/test/resources/org/apache/commons/io/dirs-2-file-size-2/dirs-a-file-size-1/file-size-1.bin
+ create mode 100644 src/test/resources/org/apache/commons/io/dirs-2-file-size-2/dirs-b-file-size-1/file-size-1.bin
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
+Already up-to-date.
+Already on 'master'
