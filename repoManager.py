@@ -40,7 +40,6 @@ class RepositoryHandler(Thread):
     def __init__(self, repository_service):
         super().__init__()
         self.repository_service = repository_service
-        uuid = repository_service.uuid
 
     def run(self):
         try:
@@ -73,8 +72,9 @@ class RepositoryHandler(Thread):
                     'repoId': repository_service.repository.uuid
                 }
                 send_msg(host=KAFKA_HOST, recv=KAFKA_TOPIC_1, msg=repo_message)
-                log('开始生成仓库副本')
-                self.repository_service.repository.copy()
+                log('开始生成仓库副本...')
+                self.repository_service.copy()
+                log('生成仓库副本成功！')
 
             except Exception as e:
                 log(e.__str__())
