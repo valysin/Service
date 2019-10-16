@@ -88,7 +88,7 @@ def get_project_info(addr):
             TYPE = config.REPO_TYPE
             response = requests.get(url, timeout=15, headers=API_HEADER[TYPE])
             if response.status_code != 200:
-                log('状态码: ' + response.status_code)
+                log('状态码: ' + str(response.status_code))
                 return None
             json_data = response.json()
         except Exception as e:
