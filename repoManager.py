@@ -42,6 +42,7 @@ class RepositoryHandler(Thread):
 
     def run(self):
         try:
+            log('开始下载仓库...')
             self.repository_service.add_repository()
             # repository.copy()
         except Exception as e:
@@ -57,6 +58,7 @@ class RepositoryHandler(Thread):
 
         else:
             try:
+                log('仓库下载成功！')
                 download_message = {'repoId': repository_service.repository.uuid, 'local_addr': repository.local_addr, 'max_index': 0,
                                     'flag': 'first added and not existed'}
                 send_msg(host=KAFKA_HOST, recv=KAFKA_TOPIC_3, msg=download_message)
@@ -69,6 +71,7 @@ class RepositoryHandler(Thread):
                     'repoId': repository_service.repository.uuid
                 }
                 send_msg(host=KAFKA_HOST, recv=KAFKA_TOPIC_1, msg=repo_message)
+                log('开始生成仓库副本')
                 self.repository_service.repository.copy()
 
             except Exception as e:
@@ -85,6 +88,7 @@ def get_project_info(addr):
             TYPE = config.REPO_TYPE
             response = requests.get(url, timeout=15, headers=API_HEADER[TYPE])
             if response.status_code != 200:
+                log('状态码: ' + response.status_code)
                 return None
             json_data = response.json()
         except Exception as e:
@@ -160,8 +164,10 @@ if __name__ == '__main__':
                 project_info = get_project_info(addr)
 
             if project_info is None:
+                log('仓库元信息获取失败！')
                 send_failed_msg(project_id)
             else:
+                log('仓库元信息获取成功！')
                 repository = RepositoryModel(repository_id = int(project_info.get('id')),
                                              language = project_info.get('language'),
                                              uuid = UUID.uuid1().__str__(),
@@ -175,6 +181,7 @@ if __name__ == '__main__':
                     handler = RepositoryHandler(repository_service)
                     handler.start()
                 else:  # 密码是否正确
+                    log('仓库已下载，开始链接...')
                     try:
                         repository.uuid = repository_service.get_uuid_by_addr()
                     except Exception as e:
