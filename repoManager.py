@@ -27,6 +27,7 @@ LOCAL_ADDR_PREFIX = config.LOCAL_ADDR_PREFIX
 REPO_ROOT_PATH_PATTERN = config.REPO_ROOT_PATH_PATTERN
 KAFKA_HOST = config.KAFKA_HOST['host-1']
 KAFKA_GROUP_ID = config.KAFKA_GROUP_ID
+REPO_TYPE = config.REPO_TYPE
 
 KAFKA_TOPIC_1 = config.KAFKA_TOPIC['RepoManager']
 KAFKA_TOPIC_2 = config.KAFKA_TOPIC['ProjectManager']
@@ -85,8 +86,7 @@ def get_project_info(addr):
     while True:
         try:# https://api.github.com/repos/
             url = GIT_API_URL_PREFIX + '/' + addr
-            TYPE = config.REPO_TYPE
-            response = requests.get(url, timeout=15, headers=API_HEADER[TYPE])
+            response = requests.get(url, timeout=15, headers=API_HEADER[REPO_TYPE])
             if response.status_code != 200:
                 log('状态码: ' + str(response.status_code))
                 return None
@@ -160,7 +160,7 @@ if __name__ == '__main__':
             else:
                 addr = re.findall(REPO_ROOT_PATH_PATTERN, url)[0]
                 # assert isinstance(addr, str) and addr != ''
-                local_addr = addr + '-' + branch
+                local_addr = REPO_TYPE + '/' + addr + '-' + branch
                 project_info = get_project_info(addr)
 
             if project_info is None:

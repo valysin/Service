@@ -4,7 +4,6 @@ import re
 from redis import Redis
 from config import config
 from dao import RepositoryDao as Dao
-from db.model import RepositoryModel
 from libs.tool import log
 
 REPO_PATH = config.REPO_PATH
