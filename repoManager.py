@@ -40,6 +40,7 @@ class RepositoryHandler(Thread):
     def __init__(self, repository_service):
         super().__init__()
         self.repository_service = repository_service
+        uuid = repository_service.uuid
 
     def run(self):
         try:
