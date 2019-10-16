@@ -86,7 +86,7 @@ class RepositoryService():
             ret = os.system('cp -r %s %s' % (self.get_repo_name(), self.get_repo_name() + '_duplicate_fdse-' + str(i)))
             # 备份文件名：<repo_name>_duplicate_fdse-<index>  repo_name: <repo>-<branch>
             if ret != 0:
-                raise Exception
+                raise Exception('生成副本失败！')
             else:
                 r.lpush(self.repository.uuid, "%s-%s-%s" % (LOCALHOST, self.repository.branch, str(i)))
         # 发送给其他服务器 进行备份
