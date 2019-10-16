@@ -183,7 +183,7 @@ if __name__ == '__main__':
                 else:  # 密码是否正确
                     log('仓库已下载，开始链接...')
                     try:
-                        repository.uuid = repository_service.get_uuid_by_addr()
+                        repository.uuid = repository_service.get_uuid_by_addr()[0]
                     except Exception as e:
                         log(e.__str__())
                         traceback.print_exc()

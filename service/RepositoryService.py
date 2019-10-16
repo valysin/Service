@@ -1,11 +1,15 @@
 import os
+import re
 
 from redis import Redis
-
 from config import config
 from dao import RepositoryDao as Dao
+from db.model import RepositoryModel
+from libs.tool import log
 
 REPO_PATH = config.REPO_PATH
+REPO_ROOT_PATH_PATTERN = config.REPO_ROOT_PATH_PATTERN
+
 KAFKA_HOST = config.KAFKA_HOST['host-1']
 LOCALHOST = config.LOCALHOST
 KAFKA_TOPIC_1 = config.KAFKA_TOPIC['RepoManager']
@@ -52,18 +56,22 @@ class RepositoryService():
         # local_addr: gitlab/a/b/c
         # return a/b/c
         split = self.repository.local_addr.split('/')
-        return split[1:]
+        return '/'.join(split[1:])
+
+    def get_url_suffix(self):
+        return re.findall(REPO_ROOT_PATH_PATTERN, self.repository.url)[0]
 
     def download(self, username=None, password=None):
         parent_path = self.get_parent_path()
-        if not os.path.exists(REPO_PATH + '/' + parent_path): #
+        if not os.path.exists(REPO_PATH + '/' + parent_path):
             os.makedirs(REPO_PATH + '/' + parent_path)
 
         os.chdir(REPO_PATH + '/' + parent_path)
 
         branch = self.repository.branch
         dest = self.get_repo_name()
-        git_remote = GIT_REMOTE_PREFIX + '/' + self.get_root_path()
+        git_remote = GIT_REMOTE_PREFIX + '/' + self.get_url_suffix()
+        log('从%s开始clone...' % git_remote)
         if username is None:
             USERNAME = config.DOWNLOAD_ACCOUNT['user']
             PASSWORD = config.DOWNLOAD_ACCOUNT['password']
@@ -102,8 +110,7 @@ class RepositoryService():
 
     def is_existed(self):
         repository_dao = Dao.RepositoryDao(self.repository)
-        return repository_dao.get_uuid_by_local_addr() == None
-
+        return repository_dao.get_uuid_by_local_addr() != None
 
     def remove_repository(self):
         os.removedirs(REPO_PATH + '/' + self.repository.local_addr)

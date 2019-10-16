@@ -13,6 +13,7 @@ class RepositoryDao:
         DB = config.ISSUE_TRACKER_MYSQL_DB
         session = db_connect(DB)
         session.add(self.repository)
+        session.commit()
         session.close()
 
     def get_uuid_by_local_addr(self):
@@ -28,3 +29,5 @@ class RepositoryDao:
         DB = config.ISSUE_TRACKER_MYSQL_DB
         session = db_connect(DB)
         session.delete(self.repository)
+        session.commit()
+        session.close()
