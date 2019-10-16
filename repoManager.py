@@ -14,7 +14,7 @@ from db.model import RepositoryModel
 from config import config
 import re
 
-GIT_API_URL_PREFIX = config.GIT_REMOTE_PREFIX
+GIT_API_URL_PREFIX = config.GIT_API_URL_PREFIX
 GITLAB_TOKEN = config.GITLAB_TOKEN
 API_HEADER = {
     'gitlab': {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
@@ -79,7 +79,7 @@ def get_project_info(addr):
     while True:
         try:# https://api.github.com/repos/
             url = GIT_API_URL_PREFIX + '/' + addr
-            response = requests.get(GIT_API_URL_PREFIX, timeout=15, headers=API_HEADER)
+            response = requests.get(url, timeout=15, headers=API_HEADER)
             if response.status_code != 200:
                 return None
             json_data = response.json()
