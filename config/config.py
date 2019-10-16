@@ -15,6 +15,8 @@ REDIS = {
     'db':5
 }
 
+REPO_TYPE = 'github'
+
 LOCALHOST = '10.141.221.85'
 
 REPO_PATH = '/home/fdse/user/issueTracker/repo'

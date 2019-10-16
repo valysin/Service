@@ -16,7 +16,10 @@ import re
 
 GIT_API_URL_PREFIX = config.GIT_API_URL_PREFIX
 GITLAB_TOKEN = config.GITLAB_TOKEN
+GITHUB_TOKEN = config.GITHUB_TOKEN
 API_HEADER = {
+    'github': {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+               'Authorization': 'token ' + GITHUB_TOKEN},
     'gitlab': {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
                'Private-Token': GITLAB_TOKEN},
 }
@@ -79,7 +82,8 @@ def get_project_info(addr):
     while True:
         try:# https://api.github.com/repos/
             url = GIT_API_URL_PREFIX + '/' + addr
-            response = requests.get(url, timeout=15, headers=API_HEADER)
+            TYPE = config.REPO_TYPE
+            response = requests.get(url, timeout=15, headers=API_HEADER[TYPE])
             if response.status_code != 200:
                 return None
             json_data = response.json()
