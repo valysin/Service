@@ -31,6 +31,7 @@ REDIS_HOST = config.REDIS['host']
 REDIS_DB = config.REDIS['db']
 REDIS_PASSWORD = config.REDIS['password']
 GIT_REMOTE_PREFIX = config.GIT_REMOTE_PREFIX
+CLONE_PROTOCOL = config.CLONE_PROTOCOL
 
 class RepositoryService():
 
@@ -62,14 +63,16 @@ class RepositoryService():
 
         branch = self.repository.branch
         dest = self.get_repo_name()
+        git_remote = GIT_REMOTE_PREFIX + '/' + self.get_root_path()
         if username is None:
             USERNAME = config.DOWNLOAD_ACCOUNT['user']
             PASSWORD = config.DOWNLOAD_ACCOUNT['password']
-            src = GIT_REMOTE_PREFIX % (USERNAME, PASSWORD)
+            src = '%s://%s:%s@%s' % (CLONE_PROTOCOL, USERNAME, PASSWORD, git_remote)
             # git clone -b <branch> <src> <dest>
+            # git clone <protocol>://<username>:<password>@<remote>
             ret = os.system('git clone -b %s %s %s' % (branch, src, dest))
         else:
-            src = GIT_REMOTE_PREFIX % (username, password)
+            src = '%s://%s:%s@%s' % (CLONE_PROTOCOL, username, password, git_remote)
             ret = os.system('git clone -b %s %s %s' % (branch, src, dest))
 
         return ret == 0

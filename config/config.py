@@ -18,13 +18,14 @@ REDIS = {
 LOCALHOST = '10.141.221.85'
 
 REPO_PATH = '/home/fdse/user/issueTracker/repo'
-LOCAL_ADDR_PREFIX = 'gitlab'
+LOCAL_ADDR_PREFIX = 'github'
 REPO_ROOT_PATH_PATTERN = ''
 
 GITHUB_TOKEN = '1b87888beee96384cd45087f26394e90abdda5f4'
 GITLAB_TOKEN = ''
-GIT_API_URL = ''
-GIT_REMOTE_PREFIX = ''
+GIT_API_URL_PREFIX = 'https://api.github.com/repos/'
+GIT_REMOTE_PREFIX = 'github.com/'
+CLONE_PROTOCOL = 'https'
 
 DOWNLOAD_ACCOUNT = {
     'user':'',
