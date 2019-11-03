@@ -169,7 +169,8 @@ if __name__ == '__main__':
                 send_failed_msg(project_id)
             else:
                 log('仓库元信息获取成功！')
-                repository = RepositoryModel(repository_id = int(project_info.get('id')),
+                repository_id = project_info.get('id') if project_info.get('id') is None else int(project_info.get('id'))
+                repository = RepositoryModel(repository_id = repository_id,
                                              language = project_info.get('language'),
                                              uuid = UUID.uuid1().__str__(),
                                              url = url,
