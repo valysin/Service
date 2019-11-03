@@ -150,6 +150,8 @@ if __name__ == '__main__':
             username = None
             password = None
             branch = json_data['branch']
+            addr = re.findall(REPO_ROOT_PATH_PATTERN, url)[0]
+            local_addr = REPO_TYPE + '/' + addr + '-' + branch
             if json_data['private'] is True:
                 username = json_data['username']
                 password = json_data['password']
@@ -159,9 +161,7 @@ if __name__ == '__main__':
                     'description': None,
                 }
             else:
-                addr = re.findall(REPO_ROOT_PATH_PATTERN, url)[0]
                 # assert isinstance(addr, str) and addr != ''
-                local_addr = REPO_TYPE + '/' + addr + '-' + branch
                 project_info = get_project_info(addr)
 
             if project_info is None:

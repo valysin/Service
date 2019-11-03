@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b1a352a-1d35-4328-a14b-4e6c3875af08" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/repoManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/repoManager.py" afterDir="false" />
-    </list>
+    <list default="true" id="0b1a352a-1d35-4328-a14b-4e6c3875af08" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+            <state relative-caret-position="574">
+              <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -41,7 +39,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/RepositoryService.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1438">
+            <state relative-caret-position="1786">
               <caret line="94" column="24" lean-forward="true" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -53,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/repoManager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="174" column="71" lean-forward="true" selection-start-line="174" selection-start-column="71" selection-end-line="174" selection-end-column="71" />
+            <state relative-caret-position="417">
+              <caret line="179" column="61" lean-forward="true" selection-start-line="179" selection-start-column="61" selection-end-line="179" selection-end-column="61" />
               <folding>
                 <element signature="e#14#33#0" expanded="true" />
               </folding>
@@ -100,11 +98,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="2243" />
+    <option name="y" value="32" />
+    <option name="width" value="1454" />
+    <option name="height" value="889" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -252,7 +250,7 @@
       <workItem from="1572418590356" duration="1469000" />
       <workItem from="1572508845701" duration="1293000" />
       <workItem from="1572618805976" duration="2120000" />
-      <workItem from="1572782053961" duration="787000" />
+      <workItem from="1572782053961" duration="1038000" />
     </task>
     <task id="LOCAL-00001" summary="重构代码&#10;添加dao层和service层">
       <created>1571155337436</created>
@@ -342,13 +340,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75164000" />
+    <option name="totallyTimeSpent" value="75415000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1913646" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1913646" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -362,7 +360,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.1530837" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32929516" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -532,6 +530,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/updateCommit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+          <folding>
+            <element signature="e#15#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db/model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -544,24 +552,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/updateCommit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
-          <folding>
-            <element signature="e#15#34#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="574">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/RepositoryService.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1438">
+        <state relative-caret-position="1786">
           <caret line="94" column="24" lean-forward="true" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -571,8 +569,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/repoManager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="174" column="71" lean-forward="true" selection-start-line="174" selection-start-column="71" selection-end-line="174" selection-end-column="71" />
+        <state relative-caret-position="417">
+          <caret line="179" column="61" lean-forward="true" selection-start-line="179" selection-start-column="61" selection-end-line="179" selection-end-column="61" />
           <folding>
             <element signature="e#14#33#0" expanded="true" />
           </folding>
