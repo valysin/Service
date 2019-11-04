@@ -5,6 +5,7 @@ from redis import Redis
 from config import config
 from dao import RepositoryDao as Dao
 from libs.tool import log
+from urllib import parse
 
 REPO_PATH = config.REPO_PATH
 REPO_ROOT_PATH_PATTERN = config.REPO_ROOT_PATH_PATTERN
@@ -79,7 +80,7 @@ class RepositoryService():
             # git clone <protocol>://<username>:<password>@<remote>
             ret = os.system('git clone -b %s %s %s' % (branch, src, dest))
         else:
-            src = '%s://%s:%s@%s' % (CLONE_PROTOCOL, username, password, git_remote)
+            src = '%s://%s:%s@%s' % (CLONE_PROTOCOL, parse.quote(username), parse.quote(password), git_remote)
             ret = os.system('git clone -b %s %s %s' % (branch, src, dest))
 
         return ret == 0
